@@ -14,6 +14,7 @@ function whileLoop(int){
   } return 'done'
 }
 
+
 function doWhileLoop(int){
 var i = 0;
   function incrementVariable() {
@@ -25,3 +26,4 @@ var i = 0;
     incrementVariable()
   } while (incrementVariable() < int)
 }
+
