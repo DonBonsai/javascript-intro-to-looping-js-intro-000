@@ -1,9 +1,10 @@
 function forLoop(arr){
   for (var i = 0; i < 25 ; i++) {
+    newArr = arr.slice[0]
     if (i === 1 ){
-      arr.push("I am 1 strange loop.")
+      newArr.push("I am 1 strange loop.")
     } else {
-      arr.push(`I am ${i} strange loops.`)
+      newArr.push(`I am ${i} strange loops.`)
     }
   }
 }
