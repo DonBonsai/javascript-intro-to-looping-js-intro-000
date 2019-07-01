@@ -9,7 +9,7 @@ function forLoop(arr){
 }
 
 function whileLoop(int){
-  while (int >= 0 ){
+  while (int > 0 ){
     console.log(--int)
   } return 'done'
 }
