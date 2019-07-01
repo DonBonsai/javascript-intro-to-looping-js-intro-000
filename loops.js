@@ -26,4 +26,3 @@ var i = 0;
     incrementVariable()
   } while (incrementVariable() < int)
 }
-
