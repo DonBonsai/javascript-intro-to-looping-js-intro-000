@@ -7,3 +7,9 @@ function forLoop(arr){
     }
   } return arr
 }
+
+function whileLoop(int){
+  while (int >= 0 ){
+    console.log(--int)
+  } console.log('don')
+}
